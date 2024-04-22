@@ -34,3 +34,9 @@ body {
     font-size: 125%;
     color: white;
 }
+
+._link {
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+}
