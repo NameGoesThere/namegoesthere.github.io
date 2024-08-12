@@ -47,7 +47,7 @@ function execute_command()
             out = "I like programming mostly for fun.<br>Sometimes I try to make cool things but then I don't finish.<br>🇮🇱 Stand with Israel 🇮🇱<br><br><a href = \"https://github.com/namegoesthere\">My Github</a>"
             break;
         case "projects":
-            out = "<a href=\"https://namegoesthere.github.io/WaluigiClient/\">Waluigi Client - Funny little mario cheat</a><br><a href=\"https://github.com/EvanZhouDev/TheDonutProject\">The Donut Project (donut.sb3) - Making donuts in every language</a>";
+            out = "<a href=\"https://namegoesthere.github.io/WaluigiClient/\">Waluigi Client - Funny little mario cheat</a><br><a href=\"https://github.com/EvanZhouDev/TheDonutProject\">The Donut Project (donut.sb3) - Making donuts in every language</a><br><a href=\"https://namegoesthere.github.io/antma.html\">Antma - A window manager with an infinitely large desktop + the anterminal terminal emulator</a><br>";
             break;
         default:
             out = `<span style=\"color: #ff0000\">${split[0]}: Command not found</span>`;
